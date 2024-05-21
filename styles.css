@@ -1,0 +1,46 @@
+#page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#histogramGraph {
+    margin-top: 120px;
+}
+
+#yAxis {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid black;
+    height: 600px;
+    width: 30px;
+    align-items: flex-start;
+}
+
+.yAxisNumbers {
+    padding-right: 10px;
+    text-align: right;
+}
+
+#xAxis {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1100px;
+    align-items: flex-end;
+    margin-left: 120px;
+}
+
+.xAxisTitle {
+    padding-top: 10px;
+    border-top: 1px solid black;
+    width: 120px;
+}
+
+#xAxisNumber1, #xAxisNumber2, #xAxisNumber3, #xAxisNumber4, #xAxisNumber5,
+#xAxisNumber6, #xAxisNumber7, #xAxisNumber8, #xAxisNumber9, #xAxisNumber10 {
+    border: 1px solid black;
+    background-color: blue;
+    height: 0px;
+    width: 40px;
+}
